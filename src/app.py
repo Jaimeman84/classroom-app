@@ -166,7 +166,7 @@ def main():
             if st.session_state.picked_history:
                 st.markdown("### 📚 Selection History")
                 history_df = pd.DataFrame({"Selected Students": st.session_state.picked_history})
-                st.dataframe(history_df, use_column_width=True)  
+                st.dataframe(history_df)  
 
         with col2:
             st.markdown("### 📝 Current List")
