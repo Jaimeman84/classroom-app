@@ -34,7 +34,7 @@ def load_animations():
             transition: all 0.3s ease;
         }
         .stButton>button:hover {
-            background-color: ##1e88e5;
+            background-color: #003E7C;
             transform: scale(1.05);
         }
         .student-card {
@@ -99,7 +99,7 @@ def main():
     
     # Custom title with emoji
     st.markdown("""
-        <h1 style='text-align: center; color: #1e88e5;'>
+        <h1 style='text-align: center; color: #FFFFFF;'>
             🎓 Interactive Classroom Helper 🎨
         </h1>
     """, unsafe_allow_html=True)
